@@ -1,0 +1,22 @@
+{
+    "name": "cesarmt/faker-data-generator",
+    "description": "A Laravel package to generate fake data dynamically for testing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cesarmt\\FakerDataGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cesar molina",
+            "email": "cesar.molina.torres.05@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.48",
+        "illuminate/console": "^10.48",
+        "fakerphp/faker": "^1.24"
+    }
+}
